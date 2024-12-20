@@ -1,0 +1,15 @@
+# RESIZE-EXP
+import numpy as np
+a=np.arange(6)
+print(a)
+b=np.resize(a,(2,3))
+c=np.resize(a,(3,2))
+print(b)
+print(c)
+#OUTPUT:
+[0 1 2 3 4 5]
+[[0 1 2]
+ [3 4 5]]
+[[0 1]
+ [2 3]
+ [4 5]]
